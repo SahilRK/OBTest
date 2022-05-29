@@ -1,0 +1,474 @@
+{
+  "$type": "OpenBots.Core.Script.Script, OpenBots.Core",
+  "Commands": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.UIAutomation.NativeBrowser.NativeBrowserCreateApplicationCommand, OpenBots.Commands.UIAutomation",
+        "v_InstanceName": "esicBrowser",
+        "v_EngineType": "Chrome",
+        "v_URL": "\"https://www.esic.in\"",
+        "v_BrowserWindowOption": "Maximize",
+        "v_CommandLineArguments": null,
+        "v_Timeout": "30",
+        "CommandID": "c5bf49cf-7449-4e0e-8022-d765753e0ae4",
+        "CommandName": "NativeBrowserCreateApplicationCommand",
+        "SelectionName": "Native Browser Create Application",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 1,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.UIAutomation.NativeBrowser.Element.NativeBrowserClickElementCommand, OpenBots.Commands.UIAutomation",
+        "v_InstanceName": "esicBrowser",
+        "v_UIASearchParameters": [],
+        "v_UIASelector": {
+          "$type": "OpenBots.Core.Model.AutomationModel.AutomationSelector, OpenBots.Core",
+          "DisplayText": "Tag Name: \"A\", Id: \"lnkemployer\", Inner Text: \"Employer Login\"",
+          "SearchParameters": [
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"ID\"",
+              "Parameter Value": "\"lnkemployer\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Tag Name\"",
+              "Parameter Value": "\"A\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Index\"",
+              "Parameter Value": "\"\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Link Text\"",
+              "Parameter Value": "\"javascript:__doPostBack('lnkemployer','')\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Inner Text\"",
+              "Parameter Value": "\"Employer Login\""
+            }
+          ],
+          "ChildSelector": null,
+          "IsValidated": false
+        },
+        "v_ClickButton": "Left Click",
+        "v_ClickType": "Simulate Click",
+        "v_OpenLinkOptions": "Same Tab",
+        "v_NewInstanceName": null,
+        "v_XAdjustment": "",
+        "v_YAdjustment": "",
+        "v_Timeout": "30",
+        "CommandID": "32d8b262-0ba0-4ee2-9e11-aff7ba9457b0",
+        "CommandName": "NativeBrowserClickElementCommand",
+        "SelectionName": "Native Browser Click Element",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 2,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.UIAutomation.NativeBrowser.Element.NativeBrowserSetTextCommand, OpenBots.Commands.UIAutomation",
+        "v_InstanceName": "esicBrowser",
+        "v_UIASearchParameters": [],
+        "v_UIASelector": {
+          "$type": "OpenBots.Core.Model.AutomationModel.AutomationSelector, OpenBots.Core",
+          "DisplayText": "Tag Name: \"INPUT\", Id: \"txtUserName\"",
+          "SearchParameters": [
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"ID\"",
+              "Parameter Value": "\"txtUserName\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Class\"",
+              "Parameter Value": "\"input100\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Tag Name\"",
+              "Parameter Value": "\"INPUT\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Name\"",
+              "Parameter Value": "\"txtUserName\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Type\"",
+              "Parameter Value": "\"text\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Index\"",
+              "Parameter Value": "\"\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"placeholder\"",
+              "Parameter Value": "\"Type your username\""
+            }
+          ],
+          "ChildSelector": null,
+          "IsValidated": false
+        },
+        "v_TextToSet": "\"50000254880001099\"",
+        "v_ClearOption": "Yes",
+        "v_SimulateType": "Yes",
+        "v_EnableInterpolatedHotkeys": "No",
+        "v_Timeout": "30",
+        "CommandID": "f7b04021-1a74-4db8-8b25-9f3f3ca5e92f",
+        "CommandName": "NativeBrowserSetTextCommand",
+        "SelectionName": "Native Browser Set Text",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 3,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.UIAutomation.NativeBrowser.Element.NativeBrowserSetTextCommand, OpenBots.Commands.UIAutomation",
+        "v_InstanceName": "esicBrowser",
+        "v_UIASearchParameters": [],
+        "v_UIASelector": {
+          "$type": "OpenBots.Core.Model.AutomationModel.AutomationSelector, OpenBots.Core",
+          "DisplayText": "Tag Name: \"INPUT\", Id: \"txtPassword\"",
+          "SearchParameters": [
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"ID\"",
+              "Parameter Value": "\"txtPassword\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Class\"",
+              "Parameter Value": "\"input100\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Tag Name\"",
+              "Parameter Value": "\"INPUT\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Name\"",
+              "Parameter Value": "\"txtPassword\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Type\"",
+              "Parameter Value": "\"password\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Index\"",
+              "Parameter Value": "\"\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"placeholder\"",
+              "Parameter Value": "\"Type your password\""
+            }
+          ],
+          "ChildSelector": null,
+          "IsValidated": false
+        },
+        "v_TextToSet": "\"Asc@261119\"",
+        "v_ClearOption": "Yes",
+        "v_SimulateType": "Yes",
+        "v_EnableInterpolatedHotkeys": "No",
+        "v_Timeout": "30",
+        "CommandID": "a7713811-06da-4185-a5a7-8378da9d689f",
+        "CommandName": "NativeBrowserSetTextCommand",
+        "SelectionName": "Native Browser Set Text",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 4,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.Core.Engine.SetEngineDelayCommand, OpenBots.Commands.Core",
+        "v_EngineDelay": "20000",
+        "CommandID": "532b483c-619e-44a4-8b14-3a779388e1be",
+        "CommandName": "SetEngineDelayCommand",
+        "SelectionName": "Set Engine Delay",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 5,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.UIAutomation.NativeBrowser.Element.NativeBrowserClickElementCommand, OpenBots.Commands.UIAutomation",
+        "v_InstanceName": "esicBrowser",
+        "v_UIASearchParameters": [],
+        "v_UIASelector": {
+          "$type": "OpenBots.Core.Model.AutomationModel.AutomationSelector, OpenBots.Core",
+          "DisplayText": "Tag Name: \"INPUT\", Id: \"btnLogin\"",
+          "SearchParameters": [
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"ID\"",
+              "Parameter Value": "\"btnLogin\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Class\"",
+              "Parameter Value": "\"login100-form-btn-gou\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Tag Name\"",
+              "Parameter Value": "\"INPUT\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Name\"",
+              "Parameter Value": "\"btnLogin\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Type\"",
+              "Parameter Value": "\"submit\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Index\"",
+              "Parameter Value": "\"\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"value\"",
+              "Parameter Value": "\"Login\""
+            }
+          ],
+          "ChildSelector": null,
+          "IsValidated": false
+        },
+        "v_ClickButton": "Left Click",
+        "v_ClickType": "Simulate Click",
+        "v_OpenLinkOptions": "Same Tab",
+        "v_NewInstanceName": null,
+        "v_XAdjustment": "",
+        "v_YAdjustment": "",
+        "v_Timeout": "30",
+        "CommandID": "32d8b262-0ba0-4ee2-9e11-aff7ba9457b0",
+        "CommandName": "NativeBrowserClickElementCommand",
+        "SelectionName": "Native Browser Click Element",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 6,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.Core.Task.RunTaskCommand, OpenBots.Commands.Core",
+        "v_TaskPath": "ProjectPath + @\"\\ESIC_Num_EntScrn_Nav.obscript\"",
+        "v_AssignArguments": true,
+        "v_ArgumentAssignments": [
+          {
+            "ArgumentName": "esicBrowser",
+            "ArgumentType": "OpenBots.Core.Model.ApplicationModel.OBAppInstance, OpenBots.Core, Version=1.8.0.0, Culture=neutral, PublicKeyToken=null",
+            "ArgumentValue": "esicBrowser",
+            "ArgumentDirection": "In"
+          }
+        ],
+        "CommandID": "5ee2a129-fc82-4c30-a14a-400e436bebda",
+        "CommandName": "RunTaskCommand",
+        "SelectionName": "Run ESIC Number Entry Navigation Flow",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 7,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    }
+  ],
+  "Variables": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptVariable, OpenBots.Core",
+      "VariableName": "esicBrowser",
+      "VariableType": "OpenBots.Core.Model.ApplicationModel.OBAppInstance, OpenBots.Core, Version=1.8.0.0, Culture=neutral, PublicKeyToken=null",
+      "VariableValue": "",
+      "VariableSource": 0
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptVariable, OpenBots.Core",
+      "VariableName": "ProjectPath",
+      "VariableType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "VariableValue": "\"Value Provided at Runtime\"",
+      "VariableSource": 0
+    }
+  ],
+  "Arguments": [],
+  "Elements": [],
+  "ImportedNamespaces": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[OpenBots.Core.Script.AssemblyReference, OpenBots.Core]], mscorlib]], mscorlib",
+    "Microsoft.Office.Interop.Outlook": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "Microsoft.Office.Interop.Outlook",
+        "AssemblyVersion": "15.0.0.0"
+      }
+    ],
+    "MimeKit": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "MimeKit",
+        "AssemblyVersion": "3.2.0.0"
+      }
+    ],
+    "Newtonsoft.Json.Linq": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "Newtonsoft.Json",
+        "AssemblyVersion": "13.0.0.0"
+      }
+    ],
+    "OpenBots.Core.Model.ApplicationModel": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "OpenBots.Core",
+        "AssemblyVersion": "1.8.0.0"
+      }
+    ],
+    "System": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Collections.Generic": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Data": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Data",
+        "AssemblyVersion": "4.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Data.DataSetExtensions",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Drawing": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Drawing",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Linq": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Core",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Security": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Text": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Text.RegularExpressions": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Threading.Tasks": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Windows.Forms": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Windows.Forms",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Xml.Linq": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Xml.Linq",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ]
+  },
+  "Version": "1.8.0.0"
+}

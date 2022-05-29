@@ -1,0 +1,5 @@
+convert '(?Captcha_DIR)\captcha.jpg' -crop 250x32.45+4+3.5 '(?Captcha_DIR)\split1.PNG'
+convert '(?Captcha_DIR)\captcha.jpg' -crop 250x50+4+38 '(?Captcha_DIR)\split2.PNG'
+convert '(?Captcha_DIR)\split1.PNG' '(?Captcha_DIR)\split2.PNG' -append '(?Captcha_DIR)\join1.PNG'
+convert '(?Captcha_DIR)\join1.PNG' -crop 250x0+5+-9 '(?Captcha_DIR)\join2.PNG'
+convert '(?Captcha_DIR)\join2.PNG' -colorspace gray -threshold 69% '(?Captcha_DIR)\final_captcha.PNG'

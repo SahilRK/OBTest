@@ -1,0 +1,236 @@
+{
+  "$type": "OpenBots.Core.Script.Script, OpenBots.Core",
+  "Commands": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.UIAutomation.NativeBrowser.Element.NativeBrowserClickElementCommand, OpenBots.Commands.UIAutomation",
+        "v_InstanceName": "esicBrowser",
+        "v_UIASearchParameters": [],
+        "v_UIASelector": {
+          "$type": "OpenBots.Core.Model.AutomationModel.AutomationSelector, OpenBots.Core",
+          "DisplayText": "Type: \"#document\", Tab Name: \"CounterFoilPage\"",
+          "SearchParameters": [
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Tab Name\"",
+              "Parameter Value": "\"CounterFoilPage\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Type\"",
+              "Parameter Value": "\"#document\""
+            }
+          ],
+          "ChildSelector": {
+            "$type": "OpenBots.Core.Model.AutomationModel.AutomationSelector, OpenBots.Core",
+            "DisplayText": "Tag Name: \"INPUT\", Id: \"ctl00_HomePageContent_print\"",
+            "SearchParameters": [
+              {
+                "Enabled": "True",
+                "Parameter Name": "\"ID\"",
+                "Parameter Value": "\"ctl00_HomePageContent_print\""
+              },
+              {
+                "Enabled": "False",
+                "Parameter Name": "\"Class\"",
+                "Parameter Value": "\"btn\""
+              },
+              {
+                "Enabled": "True",
+                "Parameter Name": "\"Tag Name\"",
+                "Parameter Value": "\"INPUT\""
+              },
+              {
+                "Enabled": "False",
+                "Parameter Name": "\"Name\"",
+                "Parameter Value": "\"ctl00$HomePageContent$print\""
+              },
+              {
+                "Enabled": "True",
+                "Parameter Name": "\"Type\"",
+                "Parameter Value": "\"submit\""
+              },
+              {
+                "Enabled": "False",
+                "Parameter Name": "\"Index\"",
+                "Parameter Value": "\"\""
+              },
+              {
+                "Enabled": "False",
+                "Parameter Name": "\"value\"",
+                "Parameter Value": "\"Print\""
+              },
+              {
+                "Enabled": "False",
+                "Parameter Name": "\"title\"",
+                "Parameter Value": "\"e-Pehchan Card\""
+              },
+              {
+                "Enabled": "False",
+                "Parameter Name": "\"onkeydown\"",
+                "Parameter Value": "\"if (event.keyCode \""
+              }
+            ],
+            "ChildSelector": null,
+            "IsValidated": false
+          },
+          "IsValidated": false
+        },
+        "v_ClickButton": "Left Click",
+        "v_ClickType": "Simulate Click",
+        "v_OpenLinkOptions": "Same Tab",
+        "v_NewInstanceName": null,
+        "v_XAdjustment": "",
+        "v_YAdjustment": "",
+        "v_Timeout": "30",
+        "CommandID": "2f2de2c8-4dc8-4048-812f-299a5387c1ea",
+        "CommandName": "NativeBrowserClickElementCommand",
+        "SelectionName": "Native Browser Click Element",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 1,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    }
+  ],
+  "Variables": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptVariable, OpenBots.Core",
+      "VariableName": "ProjectPath",
+      "VariableType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "VariableValue": "\"Value Provided at Runtime\"",
+      "VariableSource": 0
+    }
+  ],
+  "Arguments": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptArgument, OpenBots.Core",
+      "ArgumentName": "esicBrowser",
+      "ArgumentType": "OpenBots.Core.Model.ApplicationModel.OBAppInstance, OpenBots.Core, Version=1.8.0.0, Culture=neutral, PublicKeyToken=null",
+      "ArgumentValue": null,
+      "Direction": 0,
+      "AssignedVariable": null
+    }
+  ],
+  "Elements": [],
+  "ImportedNamespaces": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[OpenBots.Core.Script.AssemblyReference, OpenBots.Core]], mscorlib]], mscorlib",
+    "Microsoft.Office.Interop.Outlook": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "Microsoft.Office.Interop.Outlook",
+        "AssemblyVersion": "15.0.0.0"
+      }
+    ],
+    "MimeKit": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "MimeKit",
+        "AssemblyVersion": "3.2.0.0"
+      }
+    ],
+    "Newtonsoft.Json.Linq": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "Newtonsoft.Json",
+        "AssemblyVersion": "13.0.0.0"
+      }
+    ],
+    "OpenBots.Core.Model.ApplicationModel": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "OpenBots.Core",
+        "AssemblyVersion": "1.8.0.0"
+      }
+    ],
+    "System": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Collections.Generic": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Data": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Data",
+        "AssemblyVersion": "4.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Data.DataSetExtensions",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Drawing": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Drawing",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Linq": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Core",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Security": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Text": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Text.RegularExpressions": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Threading.Tasks": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Windows.Forms": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Windows.Forms",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Xml.Linq": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Xml.Linq",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ]
+  },
+  "Version": "1.8.0.0"
+}

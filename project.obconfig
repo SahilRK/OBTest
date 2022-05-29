@@ -1,0 +1,35 @@
+{
+  "ProjectID": "34ba24c6-9401-4999-a350-55aab45f9e83",
+  "ProjectName": "ESIC_Card_Download",
+  "ProjectType": "OpenBots",
+  "Main": "Main.obscript",
+  "Version": "1.8.0.0",
+  "ProjectArguments": [],
+  "ProjectDependencies": [
+    {
+      "Name": "OpenBots.Commands.Core",
+      "Version": "1.8.0",
+      "PackageHash": "6ONbcVGv6X46XzXCxbJ5ZROw+4WzPH/b2fKmQEGAmQnrhWw+luwANblS/2oD1aUZHCoCRHtpHZacFg0ONVteLg=="
+    },
+    {
+      "Name": "OpenBots.Commands.DataManipulation",
+      "Version": "1.8.0",
+      "PackageHash": "j2KBQ3KUszk2On6pWEEzzF53NGBYKz0QKdIgqR36rFOPHltgAkMCTZA+EGGWgoembb2fClJlEnuXebsOqvydBw=="
+    },
+    {
+      "Name": "OpenBots.Commands.Microsoft",
+      "Version": "1.8.0",
+      "PackageHash": "RX22XtMMe9APf2FrCGUzp//5vU4lGcQud8R5VWak/QtgEabePWqdCiTzQVkB5vjzh9NRS7ruH7yOM/QFMOhFwg=="
+    },
+    {
+      "Name": "OpenBots.Commands.SystemAutomation",
+      "Version": "1.8.0",
+      "PackageHash": "cMdBWDDk4bMRS1igxzMmFn4MoDcQh+jm2Ct0DBVnSreJJRa0zjkQhrWZnfwRgzKqlrkpEjsCkmzvDGqxHQ+n6w=="
+    },
+    {
+      "Name": "OpenBots.Commands.UIAutomation",
+      "Version": "1.8.0",
+      "PackageHash": "khGXD6JiHdjEq7CKuIR/XEkjNaEqvSDK8ILcEPRPmG1vtcCAtDi7iUnanKhvMvAea3dnIAvoHVWuG6h01Huz1A=="
+    }
+  ]
+}

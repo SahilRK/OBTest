@@ -1,0 +1,1355 @@
+{
+  "$type": "OpenBots.Core.Script.Script, OpenBots.Core",
+  "Commands": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.Core.Misc.SequenceCommand, OpenBots.Commands.Core",
+        "SequenceActions": [
+          {
+            "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+            "ScriptCommand": {
+              "$type": "OpenBots.Commands.UIAutomation.Selenium.Element.SeleniumClickElementCommand, OpenBots.Commands.UIAutomation",
+              "v_InstanceName": "esic_website_inst",
+              "v_SeleniumSearchParameters": [
+                {
+                  "Enabled": null,
+                  "Parameter Name": "\"XPath\"",
+                  "Parameter Value": "\"/html/body/form/b/b/font/font/div/table/tbody/tr/td[2]/input\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"ID\"",
+                  "Parameter Value": "\"div1_close\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Name\"",
+                  "Parameter Value": "\"div1_close\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Tag Name\"",
+                  "Parameter Value": "\"INPUT\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Class Name\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Link Text\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 1\"",
+                  "Parameter Value": "\"input[type='submit']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 2\"",
+                  "Parameter Value": "\"input[style='font-weight:bold;width:30px;']\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"CSS Selector 3\"",
+                  "Parameter Value": "\"input[id='div1_close']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 4\"",
+                  "Parameter Value": "\"input[onclick='javascript:OpenNewbankpopup();']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 5\"",
+                  "Parameter Value": "\"input[value='X']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 6\"",
+                  "Parameter Value": "\"input[name='div1_close']\""
+                }
+              ],
+              "v_ClickType": "Invoke Click",
+              "v_XAdjustment": "",
+              "v_YAdjustment": "",
+              "v_Timeout": "30",
+              "CommandID": "49d0b8a0-784a-4e94-bcf1-6e0877c5a248",
+              "CommandName": "SeleniumClickElementCommand",
+              "SelectionName": "First Popup Close",
+              "v_IsPrivate": false,
+              "v_IsRemote": false,
+              "v_ErrorHandling": "None",
+              "v_Comment": null,
+              "CommandEnabled": true,
+              "LineNumber": 1,
+              "IsCommented": false,
+              "PauseBeforeExecution": false
+            },
+            "AdditionalScriptCommands": null
+          },
+          {
+            "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+            "ScriptCommand": {
+              "$type": "OpenBots.Commands.UIAutomation.Selenium.Element.SeleniumClickElementCommand, OpenBots.Commands.UIAutomation",
+              "v_InstanceName": "esic_website_inst",
+              "v_SeleniumSearchParameters": [
+                {
+                  "Enabled": null,
+                  "Parameter Name": "\"XPath\"",
+                  "Parameter Value": "\"/html/body/form/b/b/font/font/div[5]/table/tbody/tr[2]/td/input\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"ID\"",
+                  "Parameter Value": "\"btnpnlcolse\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Name\"",
+                  "Parameter Value": "\"btnpnlcolse\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Tag Name\"",
+                  "Parameter Value": "\"INPUT\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Class Name\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Link Text\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 1\"",
+                  "Parameter Value": "\"input[type='submit']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 2\"",
+                  "Parameter Value": "\"input[title='Close']\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"CSS Selector 3\"",
+                  "Parameter Value": "\"input[id='btnpnlcolse']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 4\"",
+                  "Parameter Value": "\"input[onclick='javascript:OpenNewPasswordpopup();']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 5\"",
+                  "Parameter Value": "\"input[value='Close']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 6\"",
+                  "Parameter Value": "\"input[name='btnpnlcolse']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 7\"",
+                  "Parameter Value": "\"input[tabindex='0']\""
+                }
+              ],
+              "v_ClickType": "Invoke Click",
+              "v_XAdjustment": "",
+              "v_YAdjustment": "",
+              "v_Timeout": "30",
+              "CommandID": "a1031c43-b602-4d18-8736-9da3ddb18c0e",
+              "CommandName": "SeleniumClickElementCommand",
+              "SelectionName": "Second Popup Close",
+              "v_IsPrivate": false,
+              "v_IsRemote": false,
+              "v_ErrorHandling": "None",
+              "v_Comment": null,
+              "CommandEnabled": true,
+              "LineNumber": 2,
+              "IsCommented": false,
+              "PauseBeforeExecution": false
+            },
+            "AdditionalScriptCommands": null
+          },
+          {
+            "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+            "ScriptCommand": {
+              "$type": "OpenBots.Commands.UIAutomation.Selenium.Element.SeleniumClickElementCommand, OpenBots.Commands.UIAutomation",
+              "v_InstanceName": "esic_website_inst",
+              "v_SeleniumSearchParameters": [
+                {
+                  "Enabled": null,
+                  "Parameter Name": "\"XPath\"",
+                  "Parameter Value": "\"/html/body/form/b/b/font/font/div[6]/table/tbody/tr[2]/td/input\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"ID\"",
+                  "Parameter Value": "\"btnpnlPwdcolse\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Name\"",
+                  "Parameter Value": "\"btnpnlPwdcolse\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Tag Name\"",
+                  "Parameter Value": "\"INPUT\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Class Name\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Link Text\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 1\"",
+                  "Parameter Value": "\"input[type='submit']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 2\"",
+                  "Parameter Value": "\"input[title='Close']\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"CSS Selector 3\"",
+                  "Parameter Value": "\"input[id='btnpnlPwdcolse']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 4\"",
+                  "Parameter Value": "\"input[onclick='javascript:OpenSanjeevanipopup();']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 5\"",
+                  "Parameter Value": "\"input[value='Close']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 6\"",
+                  "Parameter Value": "\"input[name='btnpnlPwdcolse']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 7\"",
+                  "Parameter Value": "\"input[tabindex='-1']\""
+                }
+              ],
+              "v_ClickType": "Invoke Click",
+              "v_XAdjustment": "",
+              "v_YAdjustment": "",
+              "v_Timeout": "30",
+              "CommandID": "0070715b-6c43-44d1-876b-68e05737d231",
+              "CommandName": "SeleniumClickElementCommand",
+              "SelectionName": "Third Popup Close",
+              "v_IsPrivate": false,
+              "v_IsRemote": false,
+              "v_ErrorHandling": "None",
+              "v_Comment": null,
+              "CommandEnabled": true,
+              "LineNumber": 3,
+              "IsCommented": false,
+              "PauseBeforeExecution": false
+            },
+            "AdditionalScriptCommands": null
+          },
+          {
+            "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+            "ScriptCommand": {
+              "$type": "OpenBots.Commands.UIAutomation.Selenium.Element.SeleniumClickElementCommand, OpenBots.Commands.UIAutomation",
+              "v_InstanceName": "esic_website_inst",
+              "v_SeleniumSearchParameters": [
+                {
+                  "Enabled": null,
+                  "Parameter Name": "\"XPath\"",
+                  "Parameter Value": "\"/html/body/form/b/b/font/font/div[7]/table/tbody/tr[2]/td/input\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"ID\"",
+                  "Parameter Value": "\"btnpnlSanjeevanicolse\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Name\"",
+                  "Parameter Value": "\"btnpnlSanjeevanicolse\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Tag Name\"",
+                  "Parameter Value": "\"INPUT\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Class Name\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Link Text\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 1\"",
+                  "Parameter Value": "\"input[type='submit']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 2\"",
+                  "Parameter Value": "\"input[title='Close']\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"CSS Selector 3\"",
+                  "Parameter Value": "\"input[id='btnpnlSanjeevanicolse']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 4\"",
+                  "Parameter Value": "\"input[value='Close']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 5\"",
+                  "Parameter Value": "\"input[name='btnpnlSanjeevanicolse']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 6\"",
+                  "Parameter Value": "\"input[tabindex='0']\""
+                }
+              ],
+              "v_ClickType": "Invoke Click",
+              "v_XAdjustment": "",
+              "v_YAdjustment": "",
+              "v_Timeout": "30",
+              "CommandID": "dca1e85d-0ca0-455d-b71c-5aa9dd834061",
+              "CommandName": "SeleniumClickElementCommand",
+              "SelectionName": "Fourth Popup Close",
+              "v_IsPrivate": false,
+              "v_IsRemote": false,
+              "v_ErrorHandling": "None",
+              "v_Comment": null,
+              "CommandEnabled": true,
+              "LineNumber": 4,
+              "IsCommented": false,
+              "PauseBeforeExecution": false
+            },
+            "AdditionalScriptCommands": null
+          }
+        ],
+        "SequenceType": 0,
+        "CommandID": "11d9178e-9f44-4877-9830-309dcfc580aa",
+        "CommandName": "SequenceCommand",
+        "SelectionName": "Sequence Command",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": "Close  ESIC Info Popoups in Homepage",
+        "CommandEnabled": true,
+        "LineNumber": 1,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.UIAutomation.Selenium.Element.SeleniumClickElementCommand, OpenBots.Commands.UIAutomation",
+        "v_InstanceName": "esic_website_inst",
+        "v_SeleniumSearchParameters": [
+          {
+            "Enabled": null,
+            "Parameter Name": "\"XPath\"",
+            "Parameter Value": ""
+          },
+          {
+            "Enabled": "False",
+            "Parameter Name": "\"Relative XPath\"",
+            "Parameter Value": ""
+          },
+          {
+            "Enabled": "True",
+            "Parameter Name": "\"ID\"",
+            "Parameter Value": "\"lnkCounterFoil\""
+          },
+          {
+            "Enabled": "False",
+            "Parameter Name": "\"Name\"",
+            "Parameter Value": ""
+          },
+          {
+            "Enabled": "False",
+            "Parameter Name": "\"Tag Name\"",
+            "Parameter Value": ""
+          },
+          {
+            "Enabled": "False",
+            "Parameter Name": "\"Class Name\"",
+            "Parameter Value": ""
+          },
+          {
+            "Enabled": "True",
+            "Parameter Name": "\"Link Text\"",
+            "Parameter Value": "\"e-Pehchan Card\""
+          },
+          {
+            "Enabled": "True",
+            "Parameter Name": "\"CSS Selector\"",
+            "Parameter Value": "\"a[id='lnkCounterFoil']\""
+          }
+        ],
+        "v_ClickType": "Invoke Click",
+        "v_XAdjustment": "",
+        "v_YAdjustment": "",
+        "v_Timeout": "30",
+        "CommandID": "5c41be6d-1030-4354-a9a2-9d50db867aba",
+        "CommandName": "SeleniumClickElementCommand",
+        "SelectionName": "Selenium Click Element",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 2,
+        "IsCommented": false,
+        "PauseBeforeExecution": true
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.UIAutomation.Selenium.Browser.SeleniumSwitchBrowserWindowCommand, OpenBots.Commands.UIAutomation",
+        "v_InstanceName": "esic_website_inst",
+        "v_WindowMatchType": "Window Title",
+        "v_MatchSpecification": "Contains Match",
+        "v_CaseSensitiveMatch": "No",
+        "v_MatchParameter": "\"ViewCounterFoil\"",
+        "CommandID": "fc4abc78-e5e5-4d3a-877f-df84f43aa4ac",
+        "CommandName": "SeleniumSwitchBrowserWindowCommand",
+        "SelectionName": "Selenium Switch Browser Window",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 3,
+        "IsCommented": true,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.Core.Misc.ShowMessageCommand, OpenBots.Commands.Core",
+        "v_Message": "\"After activating browser\"",
+        "v_AutoCloseAfter": "0",
+        "CommandID": "71bf86f6-1fc0-4c67-ae49-de7f05402b56",
+        "CommandName": "ShowMessageCommand",
+        "SelectionName": "Show Message",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 4,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.Core.Misc.SequenceCommand, OpenBots.Commands.Core",
+        "SequenceActions": [
+          {
+            "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+            "ScriptCommand": {
+              "$type": "OpenBots.Commands.UIAutomation.NativeBrowser.NativeBrowserAttachApplicationCommand, OpenBots.Commands.UIAutomation",
+              "v_InstanceName": "esic_website_inst",
+              "v_EngineType": "Chrome",
+              "v_TabTitle": "\"ViewCounterFoil\"",
+              "v_Timeout": "30",
+              "CommandID": "068b9dcb-4db0-462c-b5e5-d57e7427565d",
+              "CommandName": "NativeBrowserAttachApplicationCommand",
+              "SelectionName": "Native Browser Attach Application",
+              "v_IsPrivate": false,
+              "v_IsRemote": false,
+              "v_ErrorHandling": "None",
+              "v_Comment": null,
+              "CommandEnabled": true,
+              "LineNumber": 1,
+              "IsCommented": true,
+              "PauseBeforeExecution": false
+            },
+            "AdditionalScriptCommands": null
+          },
+          {
+            "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+            "ScriptCommand": {
+              "$type": "OpenBots.Commands.UIAutomation.Selenium.Element.SeleniumClickElementCommand, OpenBots.Commands.UIAutomation",
+              "v_InstanceName": "esic_website_inst",
+              "v_SeleniumSearchParameters": [
+                {
+                  "Enabled": null,
+                  "Parameter Name": "\"XPath\"",
+                  "Parameter Value": "\"/html/body/form/div[3]/table[2]/tbody/tr[2]/td/div/table/tbody/tr/td/div/table/tbody/tr[4]/td[2]/input\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"ID\"",
+                  "Parameter Value": "\"ctl00_HomePageContent_ctrlTextEmpeIPNo\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"Name\"",
+                  "Parameter Value": "\"ctl00$HomePageContent$ctrlTextEmpeIPNo\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"Tag Name\"",
+                  "Parameter Value": "\"INPUT\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Class Name\"",
+                  "Parameter Value": "\"txtbox numericAlignRight\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Link Text\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"CSS Selector 1\"",
+                  "Parameter Value": "\"input[type='text']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 2\"",
+                  "Parameter Value": "\"input[onkeyup='checkNumerOnly(this)']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 3\"",
+                  "Parameter Value": "\"input[class='txtbox numericAlignRight']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 4\"",
+                  "Parameter Value": "\"input[tabindex='2']\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"CSS Selector 5\"",
+                  "Parameter Value": "\"input[id='ctl00_HomePageContent_ctrlTextEmpeIPNo']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 6\"",
+                  "Parameter Value": "\"input[maxlength='10']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 7\"",
+                  "Parameter Value": "\"input[name='ctl00$HomePageContent$ctrlTextEmpeIPNo']\""
+                }
+              ],
+              "v_ClickType": "Invoke Click",
+              "v_XAdjustment": "",
+              "v_YAdjustment": "",
+              "v_Timeout": "30",
+              "CommandID": "9a91e435-0c46-47a0-89ae-d298a20dd17d",
+              "CommandName": "SeleniumClickElementCommand",
+              "SelectionName": "Selenium Click Element",
+              "v_IsPrivate": false,
+              "v_IsRemote": false,
+              "v_ErrorHandling": "None",
+              "v_Comment": null,
+              "CommandEnabled": true,
+              "LineNumber": 2,
+              "IsCommented": false,
+              "PauseBeforeExecution": false
+            },
+            "AdditionalScriptCommands": null
+          },
+          {
+            "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+            "ScriptCommand": {
+              "$type": "OpenBots.Commands.Core.Misc.ShowMessageCommand, OpenBots.Commands.Core",
+              "v_Message": "\"After clicking on IP Num textbox\"",
+              "v_AutoCloseAfter": "0",
+              "CommandID": "f8edbb16-c82d-452e-bffb-0a95746908e9",
+              "CommandName": "ShowMessageCommand",
+              "SelectionName": "Show Message",
+              "v_IsPrivate": false,
+              "v_IsRemote": false,
+              "v_ErrorHandling": "None",
+              "v_Comment": null,
+              "CommandEnabled": true,
+              "LineNumber": 3,
+              "IsCommented": false,
+              "PauseBeforeExecution": false
+            },
+            "AdditionalScriptCommands": null
+          },
+          {
+            "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+            "ScriptCommand": {
+              "$type": "OpenBots.Commands.UIAutomation.Selenium.Element.SeleniumSetTextCommand, OpenBots.Commands.UIAutomation",
+              "v_InstanceName": "counterFoilBrowserPage",
+              "v_SeleniumSearchParameters": [
+                {
+                  "Enabled": null,
+                  "Parameter Name": "\"XPath\"",
+                  "Parameter Value": "\"/html/body/form/div[3]/table[2]/tbody/tr[2]/td/div/table/tbody/tr/td/div/table/tbody/tr[4]/td[2]/input\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"ID\"",
+                  "Parameter Value": "\"ctl00_HomePageContent_ctrlTextEmpeIPNo\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"Name\"",
+                  "Parameter Value": "\"ctl00$HomePageContent$ctrlTextEmpeIPNo\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"Tag Name\"",
+                  "Parameter Value": "\"INPUT\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Class Name\"",
+                  "Parameter Value": "\"txtbox numericAlignRight\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Link Text\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 1\"",
+                  "Parameter Value": "\"input[type='text']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 2\"",
+                  "Parameter Value": "\"input[onkeyup='checkNumerOnly(this)']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 3\"",
+                  "Parameter Value": "\"input[class='txtbox numericAlignRight']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 4\"",
+                  "Parameter Value": "\"input[tabindex='2']\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"CSS Selector 5\"",
+                  "Parameter Value": "\"input[id='ctl00_HomePageContent_ctrlTextEmpeIPNo']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 6\"",
+                  "Parameter Value": "\"input[maxlength='10']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 7\"",
+                  "Parameter Value": "\"input[name='ctl00$HomePageContent$ctrlTextEmpeIPNo']\""
+                }
+              ],
+              "v_TextToSet": "\"5042147767\"",
+              "v_ClearOption": "Yes",
+              "v_Timeout": "30",
+              "CommandID": "38015e9d-ea7b-42e6-9a15-a38d36f22f01",
+              "CommandName": "SeleniumSetTextCommand",
+              "SelectionName": "Selenium Set Text",
+              "v_IsPrivate": false,
+              "v_IsRemote": false,
+              "v_ErrorHandling": "None",
+              "v_Comment": null,
+              "CommandEnabled": true,
+              "LineNumber": 4,
+              "IsCommented": false,
+              "PauseBeforeExecution": false
+            },
+            "AdditionalScriptCommands": null
+          },
+          {
+            "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+            "ScriptCommand": {
+              "$type": "OpenBots.Commands.UIAutomation.Selenium.Element.SeleniumClickElementCommand, OpenBots.Commands.UIAutomation",
+              "v_InstanceName": "counterFoilBrowserPage",
+              "v_SeleniumSearchParameters": [
+                {
+                  "Enabled": null,
+                  "Parameter Name": "\"XPath\"",
+                  "Parameter Value": "\"/html/body/form/div[3]/table[2]/tbody/tr[2]/td/div/table/tbody/tr/td/div/table/tbody/tr[6]/td/input\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"ID\"",
+                  "Parameter Value": "\"ctl00_HomePageContent_ctrlBtnShow\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Name\"",
+                  "Parameter Value": "\"ctl00$HomePageContent$ctrlBtnShow\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Tag Name\"",
+                  "Parameter Value": "\"INPUT\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Class Name\"",
+                  "Parameter Value": "\"btn\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Link Text\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 1\"",
+                  "Parameter Value": "\"input[type='submit']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 2\"",
+                  "Parameter Value": "\"input[onkeydown='if (event.keyCode == 13) document.getElementById('ctl00_HomePageContent_ctrlBtnShow').click()']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 3\"",
+                  "Parameter Value": "\"input[class='btn']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 4\"",
+                  "Parameter Value": "\"input[title='View All Registered Employees']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 5\"",
+                  "Parameter Value": "\"input[tabindex='7']\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"CSS Selector 6\"",
+                  "Parameter Value": "\"input[id='ctl00_HomePageContent_ctrlBtnShow']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 7\"",
+                  "Parameter Value": "\"input[onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$HomePageContent$ctrlBtnShow\", \"\", true, \"\", \"\", false, false))']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 8\"",
+                  "Parameter Value": "\"input[value='View']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 9\"",
+                  "Parameter Value": "\"input[name='ctl00$HomePageContent$ctrlBtnShow']\""
+                }
+              ],
+              "v_ClickType": "Invoke Click",
+              "v_XAdjustment": "",
+              "v_YAdjustment": "",
+              "v_Timeout": "30",
+              "CommandID": "3995f2e2-46aa-4d8b-84e4-9d1e3777e5db",
+              "CommandName": "SeleniumClickElementCommand",
+              "SelectionName": "Selenium Click Element",
+              "v_IsPrivate": false,
+              "v_IsRemote": false,
+              "v_ErrorHandling": "None",
+              "v_Comment": null,
+              "CommandEnabled": true,
+              "LineNumber": 5,
+              "IsCommented": false,
+              "PauseBeforeExecution": false
+            },
+            "AdditionalScriptCommands": null
+          },
+          {
+            "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+            "ScriptCommand": {
+              "$type": "OpenBots.Commands.UIAutomation.Selenium.Element.SeleniumClickElementCommand, OpenBots.Commands.UIAutomation",
+              "v_InstanceName": "counterFoilBrowserPage",
+              "v_SeleniumSearchParameters": [
+                {
+                  "Enabled": null,
+                  "Parameter Name": "\"XPath\"",
+                  "Parameter Value": "\"/html/body/form/div[3]/table[2]/tbody/tr[2]/td/div/table/tbody/tr/td/div[2]/div/table/tbody/tr[2]/td[7]/a\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"ID\"",
+                  "Parameter Value": "\"ctl00_HomePageContent_gvEmployeList_ctl02_lnlViweCounterfolil\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Name\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Tag Name\"",
+                  "Parameter Value": "\"A\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Class Name\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Link Text\"",
+                  "Parameter Value": "\"View Counter Foil\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 1\"",
+                  "Parameter Value": "\"a[href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$HomePageContent$gvEmployeList$ctl02$lnlViweCounterfolil\", \"\", true, \"\", \"CounterFoilPage.aspx?empeRegPk=acdJXDwV4ayZNBis3fClqQ==&emprMasterPk=8YKKqITSUNs=&subunitCode=&NavFlag=ZQl6babcqWjZ0Wiik5YBpQ==&IP=SZiNimxACMWvlrkzcd7Bmw==&emprcod=Tcm/z2bMNYfbKIMkKl/BCNKsg7OKyiNY\", false, true))']\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"CSS Selector 2\"",
+                  "Parameter Value": "\"a[id='ctl00_HomePageContent_gvEmployeList_ctl02_lnlViweCounterfolil']\""
+                }
+              ],
+              "v_ClickType": "Invoke Click",
+              "v_XAdjustment": "",
+              "v_YAdjustment": "",
+              "v_Timeout": "30",
+              "CommandID": "a52f2b65-5437-4e1f-a8eb-2e490d1c1ce2",
+              "CommandName": "SeleniumClickElementCommand",
+              "SelectionName": "Selenium Click Element",
+              "v_IsPrivate": false,
+              "v_IsRemote": false,
+              "v_ErrorHandling": "None",
+              "v_Comment": null,
+              "CommandEnabled": true,
+              "LineNumber": 6,
+              "IsCommented": false,
+              "PauseBeforeExecution": false
+            },
+            "AdditionalScriptCommands": null
+          },
+          {
+            "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+            "ScriptCommand": {
+              "$type": "OpenBots.Commands.UIAutomation.Selenium.Element.SeleniumClickElementCommand, OpenBots.Commands.UIAutomation",
+              "v_InstanceName": "ESICBrowser",
+              "v_SeleniumSearchParameters": [
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"XPath\"",
+                  "Parameter Value": "\"/html/body/form/div[3]/b/b/font/font/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[2]/ul/li[8]/span/a\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"ID\"",
+                  "Parameter Value": "\"lnkCounterFoil\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Name\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Tag Name\"",
+                  "Parameter Value": "\"A\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Class Name\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Link Text\"",
+                  "Parameter Value": "\"e-Pehchan Card\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 1\"",
+                  "Parameter Value": "\"a[onclick='openWin('./../Employee/ViewCounterFoil.aspx?userPk=Tcm/z2bMNYfbKIMkKl/BCNKsg7OKyiNY');']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 2\"",
+                  "Parameter Value": "\"a[style='color: blue']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 3\"",
+                  "Parameter Value": "\"a[font-bold='false']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 4\"",
+                  "Parameter Value": "\"a[cssclass='submenu']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 5\"",
+                  "Parameter Value": "\"a[id='lnkCounterFoil']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 6\"",
+                  "Parameter Value": "\"a[href='#']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 7\"",
+                  "Parameter Value": "\"a[tabindex='-1']\""
+                }
+              ],
+              "v_ClickType": "Invoke Click",
+              "v_XAdjustment": "0",
+              "v_YAdjustment": "0",
+              "v_Timeout": "30",
+              "CommandID": "448b296a-dd34-4ec9-8f69-a9adcbd36215",
+              "CommandName": "SeleniumClickElementCommand",
+              "SelectionName": "Selenium Click Element",
+              "v_IsPrivate": false,
+              "v_IsRemote": false,
+              "v_ErrorHandling": "None",
+              "v_Comment": null,
+              "CommandEnabled": true,
+              "LineNumber": 8,
+              "IsCommented": true,
+              "PauseBeforeExecution": false
+            },
+            "AdditionalScriptCommands": null
+          },
+          {
+            "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+            "ScriptCommand": {
+              "$type": "OpenBots.Commands.UIAutomation.Selenium.Element.SeleniumClickElementCommand, OpenBots.Commands.UIAutomation",
+              "v_InstanceName": "ESICBrowser",
+              "v_SeleniumSearchParameters": [
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"XPath\"",
+                  "Parameter Value": "\"/html/body/form/div[3]/b/b/font/font/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[2]/ul/li[8]/span/a\""
+                },
+                {
+                  "Enabled": "True",
+                  "Parameter Name": "\"ID\"",
+                  "Parameter Value": "\"lnkCounterFoil\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Name\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Tag Name\"",
+                  "Parameter Value": "\"A\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Class Name\"",
+                  "Parameter Value": "\"\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"Link Text\"",
+                  "Parameter Value": "\"e-Pehchan Card\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 1\"",
+                  "Parameter Value": "\"a[onclick='openWin('./../Employee/ViewCounterFoil.aspx?userPk=Tcm/z2bMNYfbKIMkKl/BCNKsg7OKyiNY');']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 2\"",
+                  "Parameter Value": "\"a[style='color: blue']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 3\"",
+                  "Parameter Value": "\"a[font-bold='false']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 4\"",
+                  "Parameter Value": "\"a[cssclass='submenu']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 5\"",
+                  "Parameter Value": "\"a[id='lnkCounterFoil']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 6\"",
+                  "Parameter Value": "\"a[href='#']\""
+                },
+                {
+                  "Enabled": "False",
+                  "Parameter Name": "\"CSS Selector 7\"",
+                  "Parameter Value": "\"a[tabindex='-1']\""
+                }
+              ],
+              "v_ClickType": "Invoke Click",
+              "v_XAdjustment": "0",
+              "v_YAdjustment": "0",
+              "v_Timeout": "30",
+              "CommandID": "448b296a-dd34-4ec9-8f69-a9adcbd36215",
+              "CommandName": "SeleniumClickElementCommand",
+              "SelectionName": "Selenium Click Element",
+              "v_IsPrivate": false,
+              "v_IsRemote": false,
+              "v_ErrorHandling": "None",
+              "v_Comment": null,
+              "CommandEnabled": true,
+              "LineNumber": 8,
+              "IsCommented": true,
+              "PauseBeforeExecution": false
+            },
+            "AdditionalScriptCommands": null
+          }
+        ],
+        "SequenceType": 0,
+        "CommandID": "c5515e33-6acb-4033-aac6-79a8f6d2be44",
+        "CommandName": "SequenceCommand",
+        "SelectionName": "Sequence Command",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": "",
+        "CommandEnabled": true,
+        "LineNumber": 5,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    }
+  ],
+  "Variables": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptVariable, OpenBots.Core",
+      "VariableName": "ProjectPath",
+      "VariableType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "VariableValue": "\"Value Provided at Runtime\"",
+      "VariableSource": 0
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptVariable, OpenBots.Core",
+      "VariableName": "counterFoilBrowserPage",
+      "VariableType": "OpenBots.Core.Model.ApplicationModel.OBAppInstance, OpenBots.Core, Version=1.8.0.0, Culture=neutral, PublicKeyToken=null",
+      "VariableValue": "",
+      "VariableSource": 0
+    }
+  ],
+  "Arguments": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptArgument, OpenBots.Core",
+      "ArgumentName": "esic_website_inst",
+      "ArgumentType": "OpenBots.Core.Model.ApplicationModel.OBAppInstance, OpenBots.Core, Version=1.8.0.0, Culture=neutral, PublicKeyToken=null",
+      "ArgumentValue": null,
+      "Direction": 0,
+      "AssignedVariable": null
+    }
+  ],
+  "Elements": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptElement, OpenBots.Core",
+      "ElementName": "e_card_download_link",
+      "ElementValue": [
+        {
+          "Enabled": "True",
+          "Parameter Name": "\"XPath\"",
+          "Parameter Value": "\"/html/body/form/div[3]/b/b/font/font/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[2]/ul/li[8]/span/a\""
+        },
+        {
+          "Enabled": "True",
+          "Parameter Name": "\"ID\"",
+          "Parameter Value": "\"lnkCounterFoil\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"Name\"",
+          "Parameter Value": "\"\""
+        },
+        {
+          "Enabled": "True",
+          "Parameter Name": "\"Tag Name\"",
+          "Parameter Value": "\"A\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"Class Name\"",
+          "Parameter Value": "\"\""
+        },
+        {
+          "Enabled": "True",
+          "Parameter Name": "\"Link Text\"",
+          "Parameter Value": "\"e-Pehchan Card\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"CSS Selector 1\"",
+          "Parameter Value": "\"a[onclick='openWin('./../Employee/ViewCounterFoil.aspx?userPk=Tcm/z2bMNYfbKIMkKl/BCNKsg7OKyiNY');']\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"CSS Selector 2\"",
+          "Parameter Value": "\"a[style='color: blue']\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"CSS Selector 3\"",
+          "Parameter Value": "\"a[font-bold='false']\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"CSS Selector 4\"",
+          "Parameter Value": "\"a[cssclass='submenu']\""
+        },
+        {
+          "Enabled": "True",
+          "Parameter Name": "\"CSS Selector 5\"",
+          "Parameter Value": "\"a[id='lnkCounterFoil']\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"CSS Selector 6\"",
+          "Parameter Value": "\"a[href='#']\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"CSS Selector 7\"",
+          "Parameter Value": "\"a[tabindex='-1']\""
+        }
+      ]
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptElement, OpenBots.Core",
+      "ElementName": "emp_ip_num_field",
+      "ElementValue": [
+        {
+          "Enabled": "True",
+          "Parameter Name": "\"XPath\"",
+          "Parameter Value": "\"/html/body/form/div[3]/table[2]/tbody/tr[2]/td/div/table/tbody/tr/td/div/table/tbody/tr[4]/td[2]/input\""
+        },
+        {
+          "Enabled": "True",
+          "Parameter Name": "\"ID\"",
+          "Parameter Value": "\"ctl00_HomePageContent_ctrlTextEmpeIPNo\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"Name\"",
+          "Parameter Value": "\"ctl00$HomePageContent$ctrlTextEmpeIPNo\""
+        },
+        {
+          "Enabled": "True",
+          "Parameter Name": "\"Tag Name\"",
+          "Parameter Value": "\"INPUT\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"Class Name\"",
+          "Parameter Value": "\"txtbox numericAlignRight\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"Link Text\"",
+          "Parameter Value": "\"\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"CSS Selector 1\"",
+          "Parameter Value": "\"input[type='text']\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"CSS Selector 2\"",
+          "Parameter Value": "\"input[onkeyup='checkNumerOnly(this)']\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"CSS Selector 3\"",
+          "Parameter Value": "\"input[class='txtbox numericAlignRight']\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"CSS Selector 4\"",
+          "Parameter Value": "\"input[tabindex='2']\""
+        },
+        {
+          "Enabled": "True",
+          "Parameter Name": "\"CSS Selector 5\"",
+          "Parameter Value": "\"input[id='ctl00_HomePageContent_ctrlTextEmpeIPNo']\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"CSS Selector 6\"",
+          "Parameter Value": "\"input[maxlength='10']\""
+        },
+        {
+          "Enabled": "False",
+          "Parameter Name": "\"CSS Selector 7\"",
+          "Parameter Value": "\"input[name='ctl00$HomePageContent$ctrlTextEmpeIPNo']\""
+        }
+      ]
+    }
+  ],
+  "ImportedNamespaces": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[OpenBots.Core.Script.AssemblyReference, OpenBots.Core]], mscorlib]], mscorlib",
+    "Microsoft.Office.Interop.Outlook": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "Microsoft.Office.Interop.Outlook",
+        "AssemblyVersion": "15.0.0.0"
+      }
+    ],
+    "MimeKit": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "MimeKit",
+        "AssemblyVersion": "3.2.0.0"
+      }
+    ],
+    "Newtonsoft.Json.Linq": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "Newtonsoft.Json",
+        "AssemblyVersion": "13.0.0.0"
+      }
+    ],
+    "OpenBots.Core.Model.ApplicationModel": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "OpenBots.Core",
+        "AssemblyVersion": "1.8.0.0"
+      }
+    ],
+    "System": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Collections.Generic": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Data": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Data",
+        "AssemblyVersion": "4.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Data.DataSetExtensions",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Drawing": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Drawing",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Linq": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Core",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Security": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Text": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Text.RegularExpressions": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Threading.Tasks": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Windows.Forms": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Windows.Forms",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Xml.Linq": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Xml.Linq",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ]
+  },
+  "Version": "1.8.0.0"
+}

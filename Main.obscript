@@ -1,0 +1,192 @@
+{
+  "$type": "OpenBots.Core.Script.Script, OpenBots.Core",
+  "Commands": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.Microsoft.Excel.ExcelCreateApplicationCommand, OpenBots.Commands.Microsoft",
+        "v_InstanceName": "input_file",
+        "v_NewOpenWorkbook": "Open Workbook",
+        "v_FilePath": "ProjectPath + @\"\\data\\Input\\Client Data.xlsx\"",
+        "v_Visible": "No",
+        "v_UpdateLinks": "Always",
+        "v_Password": null,
+        "v_CloseAllInstances": "Yes",
+        "CommandID": "09b1b2e4-c08c-4ebf-917a-06d0f18a37a0",
+        "CommandName": "ExcelCreateApplicationCommand",
+        "SelectionName": "Read Input Data",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "Report Error",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 1,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.Microsoft.Excel.Range.ExcelGetRangeCommand, OpenBots.Commands.Microsoft",
+        "v_InstanceName": "input_file",
+        "v_Range": "\"A1:\"",
+        "v_AddHeaders": "Yes",
+        "v_Formulas": "No",
+        "v_OutputUserVariableName": "inputDT",
+        "CommandID": "2ed41e1f-0320-4401-90ad-21f2e4f7dc0a",
+        "CommandName": "ExcelGetRangeCommand",
+        "SelectionName": "Excel Get Range",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 2,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    }
+  ],
+  "Variables": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptVariable, OpenBots.Core",
+      "VariableName": "input_file",
+      "VariableType": "OpenBots.Core.Model.ApplicationModel.OBAppInstance, OpenBots.Core, Version=1.8.0.0, Culture=neutral, PublicKeyToken=null",
+      "VariableValue": "",
+      "VariableSource": 0
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptVariable, OpenBots.Core",
+      "VariableName": "inputDT",
+      "VariableType": "System.Data.DataTable, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "VariableValue": "",
+      "VariableSource": 0
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptVariable, OpenBots.Core",
+      "VariableName": "ProjectPath",
+      "VariableType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "VariableValue": "\"Value Provided at Runtime\"",
+      "VariableSource": 0
+    }
+  ],
+  "Arguments": [],
+  "Elements": [],
+  "ImportedNamespaces": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[OpenBots.Core.Script.AssemblyReference, OpenBots.Core]], mscorlib]], mscorlib",
+    "Microsoft.Office.Interop.Outlook": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "Microsoft.Office.Interop.Outlook",
+        "AssemblyVersion": "15.0.0.0"
+      }
+    ],
+    "MimeKit": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "MimeKit",
+        "AssemblyVersion": "3.2.0.0"
+      }
+    ],
+    "Newtonsoft.Json.Linq": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "Newtonsoft.Json",
+        "AssemblyVersion": "13.0.0.0"
+      }
+    ],
+    "OpenBots.Core.Model.ApplicationModel": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "OpenBots.Core",
+        "AssemblyVersion": "1.8.0.0"
+      }
+    ],
+    "System": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Collections.Generic": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Data": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Data",
+        "AssemblyVersion": "4.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Data.DataSetExtensions",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Drawing": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Drawing",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Linq": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Core",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Security": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Text": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Text.RegularExpressions": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Threading.Tasks": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Windows.Forms": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Windows.Forms",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Xml.Linq": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Xml.Linq",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ]
+  },
+  "Version": "1.8.0.0"
+}

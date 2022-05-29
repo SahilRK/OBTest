@@ -1,0 +1,547 @@
+{
+  "$type": "OpenBots.Core.Script.Script, OpenBots.Core",
+  "Commands": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.UIAutomation.Window.SetWindowStateCommand, OpenBots.Commands.UIAutomation",
+        "v_WindowName": "@\"ESIC - Google Chrome\"",
+        "v_WindowState": "Minimize",
+        "v_Timeout": "30",
+        "CommandID": "7a485c41-9270-49be-b08c-067ac794ae7a",
+        "CommandName": "SetWindowStateCommand",
+        "SelectionName": "Set Window State",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 1,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.UIAutomation.Window.SetWindowStateCommand, OpenBots.Commands.UIAutomation",
+        "v_WindowName": "@\"ViewCounterFoil - Google Chrome\"",
+        "v_WindowState": "Maximize",
+        "v_Timeout": "30",
+        "CommandID": "7a485c41-9270-49be-b08c-067ac794ae7a",
+        "CommandName": "SetWindowStateCommand",
+        "SelectionName": "Set Window State",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 2,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.UIAutomation.Window.ActivateWindowCommand, OpenBots.Commands.UIAutomation",
+        "v_WindowName": "@\"ViewCounterFoil - Google Chrome\"",
+        "v_Timeout": "30",
+        "CommandID": "8666d40e-2f11-4efe-945e-60de9f9e06f2",
+        "CommandName": "ActivateWindowCommand",
+        "SelectionName": "Activate Window",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 3,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.UIAutomation.NativeBrowser.Element.NativeBrowserSetTextCommand, OpenBots.Commands.UIAutomation",
+        "v_InstanceName": "esicBrowser",
+        "v_UIASearchParameters": [],
+        "v_UIASelector": {
+          "$type": "OpenBots.Core.Model.AutomationModel.AutomationSelector, OpenBots.Core",
+          "DisplayText": "Tag Name: \"INPUT\", Id: \"ctl00_HomePageContent_ctrlTextEmpeIPNo\"",
+          "SearchParameters": [
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"ID\"",
+              "Parameter Value": "\"ctl00_HomePageContent_ctrlTextEmpeIPNo\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Class\"",
+              "Parameter Value": "\"txtbox numericAlignRight\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Tag Name\"",
+              "Parameter Value": "\"INPUT\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Name\"",
+              "Parameter Value": "\"ctl00$HomePageContent$ctrlTextEmpeIPNo\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Type\"",
+              "Parameter Value": "\"text\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Index\"",
+              "Parameter Value": "\"\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"maxlength\"",
+              "Parameter Value": "\"10\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"tabindex\"",
+              "Parameter Value": "\"2\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"onkeyup\"",
+              "Parameter Value": "\"checkNumerOnly(this)\""
+            }
+          ],
+          "ChildSelector": null,
+          "IsValidated": false
+        },
+        "v_TextToSet": "\"5042147767\"",
+        "v_ClearOption": "Yes",
+        "v_SimulateType": "Yes",
+        "v_EnableInterpolatedHotkeys": "No",
+        "v_Timeout": "30",
+        "CommandID": "4e88aad5-1a70-4fde-849c-d9719bbb4667",
+        "CommandName": "NativeBrowserSetTextCommand",
+        "SelectionName": "Native Browser Set Text",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 4,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.UIAutomation.NativeBrowser.Element.NativeBrowserClickElementCommand, OpenBots.Commands.UIAutomation",
+        "v_InstanceName": "esicBrowser",
+        "v_UIASearchParameters": [],
+        "v_UIASelector": {
+          "$type": "OpenBots.Core.Model.AutomationModel.AutomationSelector, OpenBots.Core",
+          "DisplayText": "Tag Name: \"INPUT\", Id: \"ctl00_HomePageContent_ctrlBtnShow\"",
+          "SearchParameters": [
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"ID\"",
+              "Parameter Value": "\"ctl00_HomePageContent_ctrlBtnShow\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Class\"",
+              "Parameter Value": "\"btn\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Tag Name\"",
+              "Parameter Value": "\"INPUT\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Name\"",
+              "Parameter Value": "\"ctl00$HomePageContent$ctrlBtnShow\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Type\"",
+              "Parameter Value": "\"submit\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Index\"",
+              "Parameter Value": "\"\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"value\"",
+              "Parameter Value": "\"View\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"tabindex\"",
+              "Parameter Value": "\"7\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"title\"",
+              "Parameter Value": "\"View All Registered Employees\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"onkeydown\"",
+              "Parameter Value": "\"if (event.keyCode \""
+            }
+          ],
+          "ChildSelector": null,
+          "IsValidated": false
+        },
+        "v_ClickButton": "Left Click",
+        "v_ClickType": "Simulate Click",
+        "v_OpenLinkOptions": "Same Tab",
+        "v_NewInstanceName": null,
+        "v_XAdjustment": "",
+        "v_YAdjustment": "",
+        "v_Timeout": "30",
+        "CommandID": "566869a5-6081-42ab-9329-943e8e78db46",
+        "CommandName": "NativeBrowserClickElementCommand",
+        "SelectionName": "Native Browser Click Element",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 5,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.UIAutomation.NativeBrowser.Element.NativeBrowserClickElementCommand, OpenBots.Commands.UIAutomation",
+        "v_InstanceName": "esicBrowser",
+        "v_UIASearchParameters": [],
+        "v_UIASelector": {
+          "$type": "OpenBots.Core.Model.AutomationModel.AutomationSelector, OpenBots.Core",
+          "DisplayText": "Tag Name: \"A\", Id: \"ctl00_HomePageContent_gvEmployeList_ctl02_lnlViweCounterfolil\", Inner Text: \"View Counter Foil\"",
+          "SearchParameters": [
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"ID\"",
+              "Parameter Value": "\"ctl00_HomePageContent_gvEmployeList_ctl02_lnlViweCounterfolil\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Tag Name\"",
+              "Parameter Value": "\"A\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Index\"",
+              "Parameter Value": "\"\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Link Text\"",
+              "Parameter Value": "\"javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\\\"ctl00$HomePageContent$gvEmployeList$ctl02$lnlViweCounterfolil\\\", \\\"\\\", true, \\\"\\\", \\\"CounterFoilPage.aspx?empeRegPk=acdJXDwV4ayZNBis3fClqQ==&emprMasterPk=8YKKqITSUNs=&subunitCode=&NavFlag=ZQl6babcqWjZ0Wiik5YBpQ==&IP=SZiNimxACMWvlrkzcd7Bmw==&emprcod=Tcm/z2bMNYfbKIMkKl/BCNKsg7OKyiNY%22,%20false,%20true))\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Inner Text\"",
+              "Parameter Value": "\"View Counter Foil\""
+            }
+          ],
+          "ChildSelector": null,
+          "IsValidated": false
+        },
+        "v_ClickButton": "Left Click",
+        "v_ClickType": "Simulate Click",
+        "v_OpenLinkOptions": "Same Tab",
+        "v_NewInstanceName": null,
+        "v_XAdjustment": "",
+        "v_YAdjustment": "",
+        "v_Timeout": "30",
+        "CommandID": "566869a5-6081-42ab-9329-943e8e78db46",
+        "CommandName": "NativeBrowserClickElementCommand",
+        "SelectionName": "Native Browser Click Element",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 6,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.UIAutomation.NativeBrowser.Element.NativeBrowserClickElementCommand, OpenBots.Commands.UIAutomation",
+        "v_InstanceName": "esicBrowser",
+        "v_UIASearchParameters": [],
+        "v_UIASelector": {
+          "$type": "OpenBots.Core.Model.AutomationModel.AutomationSelector, OpenBots.Core",
+          "DisplayText": "Tag Name: \"A\", Id: \"ctl00_HomePageContent_DeclForm\", Inner Text: \"Medical Acceptance Card [Click Here to View Medical Acceptance Card]\"",
+          "SearchParameters": [
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"ID\"",
+              "Parameter Value": "\"ctl00_HomePageContent_DeclForm\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Tag Name\"",
+              "Parameter Value": "\"A\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Index\"",
+              "Parameter Value": "\"\""
+            },
+            {
+              "Enabled": "False",
+              "Parameter Name": "\"Link Text\"",
+              "Parameter Value": "\"javascript:__doPostBack('ctl00$HomePageContent$DeclForm','')\""
+            },
+            {
+              "Enabled": "True",
+              "Parameter Name": "\"Inner Text\"",
+              "Parameter Value": "\"Medical Acceptance Card [Click Here to View Medical Acceptance Card]\""
+            }
+          ],
+          "ChildSelector": null,
+          "IsValidated": false
+        },
+        "v_ClickButton": "Left Click",
+        "v_ClickType": "Simulate Click",
+        "v_OpenLinkOptions": "Same Tab",
+        "v_NewInstanceName": null,
+        "v_XAdjustment": "",
+        "v_YAdjustment": "",
+        "v_Timeout": "30",
+        "CommandID": "566869a5-6081-42ab-9329-943e8e78db46",
+        "CommandName": "NativeBrowserClickElementCommand",
+        "SelectionName": "Native Browser Click Element",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 7,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.Core.Task.RunTaskCommand, OpenBots.Commands.Core",
+        "v_TaskPath": "ProjectPath + @\"\\ESIC_Med_Card_Download_Flow.obscript\"",
+        "v_AssignArguments": true,
+        "v_ArgumentAssignments": [
+          {
+            "ArgumentName": "esicBrowser",
+            "ArgumentType": "OpenBots.Core.Model.ApplicationModel.OBAppInstance, OpenBots.Core, Version=1.8.0.0, Culture=neutral, PublicKeyToken=null",
+            "ArgumentValue": "esicBrowser",
+            "ArgumentDirection": "In"
+          }
+        ],
+        "CommandID": "5ee2a129-fc82-4c30-a14a-400e436bebda",
+        "CommandName": "RunTaskCommand",
+        "SelectionName": "Run ESIC Number Entry Navigation Flow",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 8,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
+        "$type": "OpenBots.Commands.Core.Task.RunTaskCommand, OpenBots.Commands.Core",
+        "v_TaskPath": "ProjectPath + @\"\\ESIC_Pehchan_Card_Download.obscript\"",
+        "v_AssignArguments": true,
+        "v_ArgumentAssignments": [
+          {
+            "ArgumentName": "esicBrowser",
+            "ArgumentType": "OpenBots.Core.Model.ApplicationModel.OBAppInstance, OpenBots.Core, Version=1.8.0.0, Culture=neutral, PublicKeyToken=null",
+            "ArgumentValue": "esicBrowser",
+            "ArgumentDirection": "In"
+          }
+        ],
+        "CommandID": "5ee2a129-fc82-4c30-a14a-400e436bebda",
+        "CommandName": "RunTaskCommand",
+        "SelectionName": "Run ESIC Number Entry Navigation Flow",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": null,
+        "CommandEnabled": true,
+        "LineNumber": 9,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    }
+  ],
+  "Variables": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptVariable, OpenBots.Core",
+      "VariableName": "esicCounterfoilWindow",
+      "VariableType": "OpenBots.Core.Model.ApplicationModel.OBAppInstance, OpenBots.Core, Version=1.8.0.0, Culture=neutral, PublicKeyToken=null",
+      "VariableValue": "",
+      "VariableSource": 0
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptVariable, OpenBots.Core",
+      "VariableName": "ProjectPath",
+      "VariableType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "VariableValue": "\"Value Provided at Runtime\"",
+      "VariableSource": 0
+    }
+  ],
+  "Arguments": [
+    {
+      "$type": "OpenBots.Core.Script.ScriptArgument, OpenBots.Core",
+      "ArgumentName": "esicBrowser",
+      "ArgumentType": "OpenBots.Core.Model.ApplicationModel.OBAppInstance, OpenBots.Core, Version=1.8.0.0, Culture=neutral, PublicKeyToken=null",
+      "ArgumentValue": null,
+      "Direction": 0,
+      "AssignedVariable": null
+    }
+  ],
+  "Elements": [],
+  "ImportedNamespaces": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[OpenBots.Core.Script.AssemblyReference, OpenBots.Core]], mscorlib]], mscorlib",
+    "Microsoft.Office.Interop.Outlook": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "Microsoft.Office.Interop.Outlook",
+        "AssemblyVersion": "15.0.0.0"
+      }
+    ],
+    "MimeKit": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "MimeKit",
+        "AssemblyVersion": "3.2.0.0"
+      }
+    ],
+    "Newtonsoft.Json.Linq": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "Newtonsoft.Json",
+        "AssemblyVersion": "13.0.0.0"
+      }
+    ],
+    "OpenBots.Core.Model.ApplicationModel": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "OpenBots.Core",
+        "AssemblyVersion": "1.8.0.0"
+      }
+    ],
+    "System": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Collections.Generic": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Data": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Data",
+        "AssemblyVersion": "4.0.0.0"
+      },
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Data.DataSetExtensions",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Drawing": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Drawing",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Linq": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Core",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Security": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Text": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Text.RegularExpressions": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Threading.Tasks": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "mscorlib",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Windows.Forms": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Windows.Forms",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ],
+    "System.Xml.Linq": [
+      {
+        "$type": "OpenBots.Core.Script.AssemblyReference, OpenBots.Core",
+        "AssemblyName": "System.Xml.Linq",
+        "AssemblyVersion": "4.0.0.0"
+      }
+    ]
+  },
+  "Version": "1.8.0.0"
+}
